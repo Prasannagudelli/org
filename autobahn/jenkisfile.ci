@@ -1,1 +1,30 @@
-ci phase
+qa.ci phase
+it is having statge like:
+* Initialization
+* Build
+* Sonarqube
+  steps {
+    withSonarQubeEnv('mysonar')
+      {
+
+      }
+* Nexus
+    .for manual configuration
+   
+    .for pipeline
+    stage("UploadArtifacts")
+      steps {
+      nexusArtifactUploader(
+     nexusversion:
+     protocol:
+     nexus URL:
+     repository:'my-project-repo'(this is the name of the repository that we have created in the nexus repository manager)
+     groupoid
+     artifactidn
+     type:'war'
+    )
+* Fortify Scan 
+    SAST
+    DAST
+    these are fortify scan security elements
+
