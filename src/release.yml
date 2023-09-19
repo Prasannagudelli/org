@@ -21,4 +21,8 @@ and in this file we mwntion 4 subpipelines
   autoTestingPipeline:"automation.testing.pipeline"
   prodDeploymentPipeline:"prod.deployment.pipeline
   smokeTestPipeline:"smoke.tests.pipeline"
+
+fortify scanner inputs
+fortifyProjectID:
+fortifyBaseURL:
   
