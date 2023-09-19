@@ -13,3 +13,12 @@ A YML file is a text document that containes,
   jenkinsProddeploy:here we should give autobahn jobs url(i.e., prod.cd or prod.deploy)
   
 url's of jenkins(or Autobahn) jobs
+
+
+and in this file we mwntion 4 subpipelines
+# sub pipelines execution
+  qaDeploymentPipeline:"qa.deploy.pipeline"
+  autoTestingPipeline:"automation.testing.pipeline"
+  prodDeploymentPipeline:"prod.deployment.pipeline
+  smokeTestPipeline:"smoke.tests.pipeline"
+  
