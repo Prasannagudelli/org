@@ -1,1 +1,5 @@
-cd phase
+qa.cd phase 
+deployment to the pre-production
+or deploy to the staging(staging area)
+
+ 
