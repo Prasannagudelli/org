@@ -2,5 +2,14 @@ release.yml is the imp file.we call application properties from yml document.
 A YML file is a text document that containes,
   releaseVersion:
   rollbackReleasseversion:
-  jenkins job
+  jenkins job:here we should give autobahn jobs url(i.e., qa.ci)
+  jenkinsToken:"TestToken"
+  jenkinsUrl:here we should give the jenkins url
+      "https://jenkins-ftn.web.fedex.com:8443/jenkins/"
+  jenkinsConfig:
+  jenkinstestArtifacts:"surefire.zip"-this file contains the test cases
+  jenkinsQAdeploy:here we should give autobahn jobs url(i.e., qa.cd)
+  //jenkinsQATest
+  jenkinsProddeploy:here we should give autobahn jobs url(i.e., prod.cd or prod.deploy)
+  
 url's of jenkins(or Autobahn) jobs
